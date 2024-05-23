@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>アークナイツというゲームについて</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        function DisplayDate() {
+          let now = new Date();
+          //年を取得する
+          let YYYY = now.getFullYear();
+          //月を取得する
+          let MM = now.getMonth()+1;
+          //日を取得する
+          let DD = now.getDate();
+          
+          alert(YYYY + "/" + MM + "/" + DD);
+        }
+      </script>
+
+</head>
+<body id="index">
+    <header id="hd">
+        <h1>アークナイツとは</h1>
+        <nav>
+            <ul>
+                <li><a href="about.html" class="BT">ゲーム紹介</a></li>
+                <li><a href="contact.html" class="BT">最後に</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>ソシャゲの印象を変えたゲーム！？</h2>
+        <p>Pay to Winという言葉を一度は聞いたことはありますか</p>
+        <p>Pay to Winとはお金を払って勝つという意味であり、課金システムを利用したユーザーが圧倒的に有利になるようなゲームバランスのゲームのことです。</p>
+        <p>最近のスマホゲームは、ゲーム内課金が主流で、お金をかければかけるほどゲーム攻略が楽になったりするものが多いと思います。</p>
+        <p>そのため、ソシャゲ＝課金ゲームと先入観が働き、ここ最近私も途中でソシャゲをやめることが多かったです。</p>
+        <p>そんな中、私の目についたのはこのアークナイツのゲームCMでした</p>
+        <p>面白そうとスマホを手に取り、プレイしてみた結果―――</p>
+        <h1>ここ半年以上、毎日プレイしている日課になっていました！</h1>
+
+        <p> 今回、何故「こんなにハマっているのか？」とアークナイツの魅力を語っていきたいと思います!!</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Website</p>
+    </footer>
+
+    <button type="button" onclick="DisplayDate()">
+        本日の日付を表示します。
+      </button>
+    
+</body>
+</html>
